@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+}
+
+#sidebar {
+    top: 0;
+}
+
+#sidebar img {
+    padding-bottom: 2rem;
+}
+
+body {
+    padding: 0;
+}
+
+.main h1:first-child {
+    margin-top: 0;
+    line-height: 29px;
+}
+
+pre {
+    position: relative;
+    overflow: auto;
+    margin: 5px 0;
+    padding: 2rem 0 2rem 2rem;
+    border-radius: 1rem;
+}
+
+button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    margin: 0.5rem;
+    background-color: #bcbabb65;
+    color: black;
+    border: solid 1px #7b7b7c;
+    border-radius: 0.6rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bcbabb;
+}
