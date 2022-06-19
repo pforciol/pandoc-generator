@@ -2,6 +2,7 @@ from: markdown
 to: html
 
 toc: true
+output: index.html
 
 metadata:
   title: This is a title
