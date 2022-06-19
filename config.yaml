@@ -1,0 +1,10 @@
+from: markdown
+to: html
+
+toc: true
+
+metadata:
+  title: This is a title
+
+template: ${.}/templates/template.html
+css: ./styles/theme.css
