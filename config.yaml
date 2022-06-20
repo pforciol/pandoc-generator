@@ -1,11 +1,13 @@
-from: markdown
+from: markdown-emoji
 to: html
 
 toc: true
-output: index.html
+number-sections: true
+input-file: markdown.md
+output-file: index.html
 
 metadata:
-  title: This is a title
+  title: My title
 
 template: ${.}/templates/template.html
 css: ./styles/theme.css

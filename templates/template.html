@@ -12,7 +12,7 @@
         <meta name="dcterms.date" content="$date-meta$"> $endif$ $if(keywords)$
         <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$"> $endif$
 
-        <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+        <title>$if(title-prefix)$$title-prefix$ – $endif$$title$</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -59,6 +59,7 @@
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
           </ul>-->
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fortinet_logo.svg/2560px-Fortinet_logo.svg.png"></img>
+                    <p>$title$</p>
                     $toc$
                 </div>
                 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
